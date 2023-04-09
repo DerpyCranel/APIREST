@@ -1,0 +1,20 @@
+CREATE DATABASE IF NOT EXISTS  companydb;
+
+USE companydb;
+
+--tabla employee
+CREATE TABLE employee(
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(45) DEFAULT NULL,
+    salary INT(5) DEFAULT NULL,
+    PRIMARY KEY(id)
+);
+
+INSERT INTO employee VALUES
+(DEFAULT,'jOE',1000),
+(DEFAULT,'HENRY',300),
+(DEFAULT,'SANDIA',4000),
+(DEFAULT,'WERTY',4564);
+
+
+
